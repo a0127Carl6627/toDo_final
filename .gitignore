@@ -1,43 +1,18 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
 node_modules/
-
-# Expo
 .expo/
 dist/
 web-build/
-expo-env.d.ts
 
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+.env
+.env.local
+.env.*.local
 
-# Metro
-.metro-health-check*
+todo/node_modules/
+todo/.expo/
+todo/.env
+todo/.env.local
+todo/.env.*.local
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
-.DS_Store
-*.pem
-
-# local env files
-.env*.local
-
-# typescript
-*.tsbuildinfo
-
-app-example
-
-# generated native folders
-/ios
-/android
+todo_back_end/todo-backend/node_modules/
+todo_back_end/todo-backend/.env
+todo_back_end/todo-backend/firebase-service-account.json
